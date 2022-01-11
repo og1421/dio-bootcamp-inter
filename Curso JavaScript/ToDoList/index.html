@@ -11,10 +11,13 @@
     <div class="box">
         <h1>To Do List</h1>
         <div class="row">
-            <input type="text" name="To do" id="in-todo" placeholder="A fazer...">
-            <button name="Add" onclick="add_todo()" >Adicionar</butto>
+            <form id="todo-form">
+                <input id="todo-input" type="text" name="To do" id="in-todo" placeholder="A fazer...">
+                <button name="Add" type="submit" >Adicionar</butto>
+            </form>
         </div>
+        <div id="todo" class="row"></div>
     </div>
-    
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
